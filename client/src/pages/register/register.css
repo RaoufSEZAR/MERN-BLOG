@@ -1,0 +1,71 @@
+.register {
+	height: calc(100vh - 50px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("https://www.acecqa.gov.au/sites/default/files/styles/hero/public/ACECQA-hero-books.jpg?itok=n95f1Clp");
+	background-size: cover;
+}
+
+.registerTitle {
+	font-size: 50px;
+}
+
+.registerForm {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
+.registerForm > label {
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+.registerInput {
+	padding: 10px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+.registerInput:focus {
+	outline: none;
+}
+.registerButton {
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: teal;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+}
+.registerButton:hover {
+	cursor: pointer;
+	background-color: rgb(20, 83, 83);
+}
+
+.registerLoginButton {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	background-color: lightcoral;
+	cursor: pointer;
+	padding: 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+}
+
+.registerLoginButton:hover {
+	background-color: rgb(146, 32, 32);
+	cursor: pointer;
+}
