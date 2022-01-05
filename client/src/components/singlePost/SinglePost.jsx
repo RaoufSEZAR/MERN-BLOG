@@ -5,6 +5,7 @@ import axios from "axios";
 import "./singlePost.css";
 
 export default function SinglePost() {
+	const PF = "http://localhost:5000/images/";
 	const [post, setPost] = useState({});
 	const location = useLocation();
 	const path = location.pathname.split("/")[2];
@@ -20,7 +21,7 @@ export default function SinglePost() {
 		<div className="singlePost">
 			<div className="singlePostWrapper">
 				{post.photo && (
-					<img className="singlePostImg" src={post.photo} alt="" />
+					<img className="singlePostImg" src={PF + post.photo} alt="" />
 				)}
 
 				<h1 className="singlePostTitle">

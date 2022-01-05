@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const multer = require("multer");
+const path = require("path");
 require("dotenv").config();
 
 // routes
@@ -22,7 +23,7 @@ mongoose
 	.catch((err) => console.log(`database error`, err));
 
 app.use(express.json());
-
+app.use("/images", express.static(path.join(__dirname, "/images")));
 // multer
 const storage = multer.diskStorage({
 	destination: (req, file, cb) => {
