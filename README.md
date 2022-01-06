@@ -1,21 +1,30 @@
 # MERN-BLOG
 
-# KANBAN_BOARD_MERN-STACK
+this project is for Blog project, the user can CRUD a Post, and find posts by category or author name ,add Category .I coded this project using **_HTML5, CSS3, ECMA6, React, Context Api , Node.js, Express.js ,Javascript, MongoDb and Mongoose._**
 
-this project is for the kanban board project, the user can add a board, and inside it can add tasks to the lists like backlog, in Progress, todo and done, and can delete task card or can delete all the board with all its tasks with drop drap feature to change cards places between the lists.I coded this project using **_HTML5, SCSS, ECMA6, React, Node.js, Express.js ,Javascript, MongoDb and Mongoose._**
+## Post Model:
 
-## Board Model:
+- Add a Post
+- Delete Posts by the Post id
+- Find all Posts by the Category name
+- Update Posts By same Author
 
-- Add a board
-- Find all cards by a board slug(board name)
-- Delete a board with every task has the same boardId
+## User Model:
 
-## Task Model:
+- Create a User account 
+- Delete Posts by the Post id that has written 
+- Find all Posts by the User name
+- Update User account
+- Update his Posts
 
-- Add a task
-- Delete tasks by the task slug (task name)
+## Category Model:
 
-### You can find Postman Collection in this [link](https://github.com/RaoufSEZAR/KANBAN_BOARD_MERN-STACK/blob/main/RastTaskProject.postman_collection.json)
+- Add a Category
+- Find all Posts by a Category name
+- Find all Categories
+
+
+### You can find Postman Collection in this [link](https://github.com/RaoufSEZAR/MERN-BLOG/blob/main/MERN_BLOG.postman_collection.json)
 
 ## To try this project in your machine
 
