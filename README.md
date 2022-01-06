@@ -76,3 +76,8 @@ npm start
 
 ![single post](https://user-images.githubusercontent.com/64332249/148446304-26a35067-d607-4053-920f-d30a7ace37a0.png)
 
+### 404 Page
+
+![404](https://user-images.githubusercontent.com/64332249/148449113-d12bbbf3-c99b-475f-a0b0-efffd47f97a7.png)
+
+
