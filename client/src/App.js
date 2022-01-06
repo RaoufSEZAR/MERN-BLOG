@@ -8,6 +8,7 @@ import Register from "./pages/register/Register";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
+import NoMatch from "./pages/404Page/NoMatch";
 
 function App() {
 	const { user } = useContext(Context);
@@ -25,6 +26,7 @@ function App() {
 
 				<Route path="/write" element={user ? <Write /> : <Login />} />
 				<Route path="/settings" element={user ? <Settings /> : <Login />} />
+				<Route path="*" element={<NoMatch />} />
 			</Routes>
 		</Router>
 	);
