@@ -1,5 +1,45 @@
 # MERN-BLOG
 
+# KANBAN_BOARD_MERN-STACK
+
+this project is for the kanban board project, the user can add a board, and inside it can add tasks to the lists like backlog, in Progress, todo and done, and can delete task card or can delete all the board with all its tasks with drop drap feature to change cards places between the lists.I coded this project using **_HTML5, SCSS, ECMA6, React, Node.js, Express.js ,Javascript, MongoDb and Mongoose._**
+
+## Board Model:
+
+- Add a board
+- Find all cards by a board slug(board name)
+- Delete a board with every task has the same boardId
+
+## Task Model:
+
+- Add a task
+- Delete tasks by the task slug (task name)
+
+### You can find Postman Collection in this [link](https://github.com/RaoufSEZAR/KANBAN_BOARD_MERN-STACK/blob/main/RastTaskProject.postman_collection.json)
+
+## To try this project in your machine
+
+after cloning the project add DB by adding .env file to api file and write this:
+
+```
+MONGO_URL=mongodb://localhost:27017/YOUR_DATABASE_NAME
+PORT=5000
+```
+
+and inside api file in the same path write this in the terminal:
+
+```
+npm install
+npm start
+```
+
+and this message will show in terminal after connecting successfuly to db: \***\*connected to db sccessfully\*\***
+after that open client file and in the same path write this in the terminal:
+
+```
+npm install
+npm start
+```
 
 ## SOME PICTURES FROM PROJECT
 
